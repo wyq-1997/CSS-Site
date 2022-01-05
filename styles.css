@@ -1,0 +1,140 @@
+div {
+}
+
+body {
+	margin: 0;
+	text-align: center;
+}
+
+p {
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 1.2rem;
+}
+
+h1 {
+	/* a block element has a width setting only can be centered by auto margin */
+	margin:auto auto auto auto;
+	font-family: 'Licorice', cursive;
+	/* 16px = 100% = 1em */
+	font-size: 5.65rem;
+	margin: 50px auto 0 auto;
+	color: #753422;
+	line-height: 2;
+}
+
+h2 {
+	color: #753422;
+	font-size: 2.5rem;
+	font-weight: normal;
+}
+
+h3 {
+	color:#B05B3B;
+}
+
+p {
+	font-family: "Candara", "Calibri", "Segoe", "Segoe UI", "Optima", Arial, sans-serif;
+}
+
+hr {
+	border-style: None;
+	border-top:dotted;
+	border-top-width: 12px;
+	width: 15%;
+	clear: both;
+	color: #D79771;
+	margin: 100px auto;
+}
+
+.Yuqing-img {
+	border-radius: 50%;
+}
+
+.top {
+	background-color: #FFEBC9;
+	padding-top: 100px;
+}
+
+.middle {
+	padding-bottom: 50px;
+	margin-bottom: 100px;
+}
+
+.bottom {
+	background-color: #D79771;
+	padding-bottom: 80px;
+}
+
+.pro {
+	text-decoration: underline;
+}
+
+.top-cloud {
+	position: absolute;
+	left:65%;
+}
+
+.bottom-cloud {
+	position:absolute;
+	right:65%;
+}
+
+.skill-row {
+	width:50%;
+	margin: 100px auto 100px auto;
+	text-align: start;
+	line-height: 2;
+}
+
+.skill-img1 {
+	width: 25%;
+	float: left;
+	margin-right: 30px;
+}
+
+.skill-img2 {
+	width: 25%;
+	float: right;
+	margin-left: 30px;
+}
+
+.btn {
+	background: #753422;
+	background-image: -webkit-linear-gradient(top, #753422, #B05B3B);
+	background-image: -moz-linear-gradient(top, #753422, #B05B3B);
+	background-image: -ms-linear-gradient(top, #753422, #B05B3B);
+	background-image: -o-linear-gradient(top, #753422, #B05B3B);
+	background-image: linear-gradient(to bottom, #753422, #B05B3B);
+	-webkit-border-radius: 8;
+	-moz-border-radius: 8;
+	border-radius: 8px;
+	font-family: Arial;
+	color: #ffffff;
+	font-size: 20px;
+	padding: 10px 20px 10px 20px;
+	text-decoration: none;
+	position:relative;
+	top:15px;
+  }
+  
+.btn:hover {
+	background: #8a4734;
+	background-image: -webkit-linear-gradient(top, #8a4734, #b57057);
+	background-image: -moz-linear-gradient(top, #8a4734, #b57057);
+	background-image: -ms-linear-gradient(top, #8a4734, #b57057);
+	background-image: -o-linear-gradient(top, #8a4734, #b57057);
+	background-image: linear-gradient(to bottom, #8a4734, #b57057);
+	text-decoration: none;
+}
+
+.footer-link {
+	color: #753422;
+	font-size: 1.1rem;
+	display: inline-block;
+	width: 100px;
+	margin-top: 50px;
+  }
+
+  .footer-link:hover {
+	  color:#FFEBC9
+  }
